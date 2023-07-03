@@ -1,0 +1,40 @@
+.ulWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.ulLists {
+    
+    padding: 3%;
+}
+
+ul {
+    /* list-style: none; */
+
+}
+
+ul div a li {
+    list-style: none;
+    opacity: 0.5;
+}
+
+ul div a {
+    text-decoration: none;
+    color: white;
+    line-height: 20px;
+}
+
+.footDev {
+    text-align: center;
+    font-size: larger;
+    opacity: 0.5;
+    padding: 40px;
+}
+
+.footDev:hover {
+    color: white;
+    opacity: 0.9;
+
+}

@@ -1,0 +1,23 @@
+.navBar {
+   
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    overflow: hidden;
+ transition: all 0.5s;
+ transition-timing-function: ease-in;
+  position: fixed; /* Set the navbar to fixed position */
+  width: 100%;
+ 
+}
+img {
+    float: left;
+    /* display: block; */
+   padding: 10px 10px 10px 10px;
+   
+   
+}
+.nav__black {
+    background-color: #111;
+}
+
